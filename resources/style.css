@@ -48,11 +48,28 @@ main {
   flex-shrink: 0;
   flex-grow: 0;
 }
+
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* First column */
 .column.large {
   width: 630px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
+
+/* Stories */
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Second/Third columns */
 .column.medium {
   width: 300px;
   display: flex;
@@ -62,12 +79,6 @@ main {
   width: 240px;
   display: flex;
   flex-direction: column;
-}
-
-p {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
 }
 
 /* Images */
@@ -83,15 +94,26 @@ p {
 .main-story {
   background-image: url(./images/img-story-main.png);
   font-size: 40px;
+  width: auto;
 }
 .earth-spin {
-  background-image: url(./images/img-story-1.png);
+  background-image: url(./images/img-story-2.png);
+  width: 300px;
 }
 .cameras {
-  background-image: url(./images/img-story-2.png);
+  background-image: url(./images/img-story-3.png);
+  width: 300px
 }
 .cats {
-  background-image: url(./images/img-story-3.png);
+  background-image: url(./images/img-story-1.png);
+  width: 300px;
+}
+
+.orca {
+  width: 300px;
+}
+.burger {
+  width: 300px;
 }
 /* Temporary borders */
 main {
