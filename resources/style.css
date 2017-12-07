@@ -1,0 +1,31 @@
+/* Header section */
+header {
+  font-family: Verdana; sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: MediumAquamarine;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  padding: 10px;
+}
+a {
+  color: black;
+  padding: 0px 10px;
+  margin: 2px;
+}
+nav {
+  padding-right: 40px;
+}
